@@ -7,11 +7,6 @@ permissions: read-all
 tools:
   github:
 
-engine:
-  id: copilot
-  env:
-    LAB_CANARY: ${{ secrets.PUBLIC_TOKEN }}
-
 safe-outputs:
   create-issue:
     max: 1
